@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main class="hero">
+  <h1 class="wordmark" aria-label="{{ .Site.Title }}">
+    <span class="wordmark-bold">BOLD</span><span class="wordmark-light">Biosciences</span>
+  </h1>
+  <p class="tagline">{{ .Params.tagline }}</p>
+</main>
+<footer class="site-footer">
+  <small>&copy; {{ now.Year }} BOLD Biosciences</small>
+</footer>
+{{ end }}

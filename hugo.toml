@@ -1,0 +1,8 @@
+baseURL = "https://boldbiosciences.github.io/"
+languageCode = "en-us"
+title = "BOLD Biosciences"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term", "RSS"]
+
+[params]
+  description = "BOLD Biosciences — something amazing is brewing."
